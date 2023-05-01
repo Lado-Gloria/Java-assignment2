@@ -12,28 +12,44 @@ const books = [
 // Create a function called getAvailableBooks that returns an array of all available
 // books.
 
-function getAvailableBooks(){
-    let book =books.title()
-    console.log(book)
+function getAvailableBooks(books){
+    let title= []
+for(let x =0;x<books.length;x++){
+    title+=x
 
 }
+   
+
+    }
+    console.log(getAvailableBooks(books))
+
+ 
+
+
 // Create a function getBooksByAuthor that takes an author's name as an argument and
 // returns an array of all books by that author.
-function getBooksByAuthor(){
-    let book =books.author()
-    console.log(book)
+function getBooksByAuthor(author){
+
+    // let author= []
+    for(let x =0;x<books.length;x++){
+        author+=x
+    
     
 }
+}
+let author=books
+console.log(getAvailableBooks(author))
 
 // Create a function addNewBook that takes a book object as an argument and adds it
 // to the library, ensuring that the new book has all required properties (title, author,
     // publicationYear, and isAvailable).
-    function addNewBook(book){
-        let books= book.add(author)
-        book.reduce(a,b) => a+b
-console.log(books)
+    function addNewBook(book,author){
+        console
+        
+
 
     }
+    console.log(books)
 
     // 4. Create a function checkoutBook that takes a book title as an argument and changes
 // the book's isAvailable property to false. If the book is not found in the library, the
